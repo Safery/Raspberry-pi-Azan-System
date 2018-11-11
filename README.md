@@ -46,6 +46,7 @@ to your location:
 		JSONObject json = restCaller.readJsonFromUrl("http://api.aladhan.com/v1/calendarByCity?city=CITY&country=COUNTRY&method=2&month=" + date.getMonth() + "&year=" + date.getYear());
 
 CITY - City
+
 COUNTRY - Country
 
 #### The path to my desktop is different than what the program is being defined with. How do I fix some of the path like getting the azan location?

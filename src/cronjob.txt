@@ -1,0 +1,5 @@
+02 06 * * * bash /home/pi/Desktop/azan/src/compile
+02 12 * * * play /home/pi/Desktop/azan/src/preZuhr.mp3 vol 15 dB; play /home/pi/Desktop/azan/src/azan.mp3 vol 15 dB; play /home/pi/Desktop/azan/src/afterAzan.mp3 vol 15 dB
+35 14 * * * play /home/pi/Desktop/azan/src/preAsr.mp3 vol 15 dB; play /home/pi/Desktop/azan/src/azan.mp3 vol 15 dB; play /home/pi/Desktop/azan/src/afterAzan.mp3 vol 15 dB
+56 16 * * * play /home/pi/Desktop/azan/src/preMagrib.mp3 vol 15 dB; play /home/pi/Desktop/azan/src/azan.mp3 vol 15 dB; play /home/pi/Desktop/azan/src/afterAzan.mp3 vol 15 dB
+19 18 * * * play /home/pi/Desktop/azan/src/preIsha.mp3 vol 15 dB; play /home/pi/Desktop/azan/src/azan.mp3 vol 15 dB; play /home/pi/Desktop/azan/src/afterAzan.mp3 vol 15 dB 

@@ -11,11 +11,11 @@ public class cronManagement {
 	
 	public static String getAzan() {
 		HashMap<Integer, String> azanPath= new HashMap<Integer, String>();
-		azanPath.put(0, "play /home/pi/Desktop/azan/src/sounds/azan/azan.mp3 vol 15 dB; play /home/pi/Desktop/azan/src/sounds/afterAzan.mp3 vol 15 dB");
-		azanPath.put(1, "play /home/pi/Desktop/azan/src/sounds/azan/azan1.mp3 vol 15 dB; play /home/pi/Desktop/azan/src/sounds/afterAzan.mp3 vol 15 dB");
-		azanPath.put(2, "play /home/pi/Desktop/azan/src/sounds/azan/azan2.mp3 vol 15 dB;");
-		azanPath.put(3, "play /home/pi/Desktop/azan/src/sounds/azan/azan3.mp3 vol 15 dB; play /home/pi/Desktop/azan/src/sounds/afterAzan.mp3 vol 15 dB");
-		azanPath.put(4, "play /home/pi/Desktop/azan/src/sounds/azan/azan4.mp3 vol 15 dB;");
+		azanPath.put(0, "play /home/pi/Desktop/azan/src/sounds/azans/azan.mp3 vol 25 dB; play /home/pi/Desktop/azan/src/sounds/afterAzan.mp3 vol 25 dB");
+		azanPath.put(1, "play /home/pi/Desktop/azan/src/sounds/azans/azan1.mp3 vol 25 dB;");
+		azanPath.put(2, "play /home/pi/Desktop/azan/src/sounds/azans/azan2.mp3 vol 25 dB; play /home/pi/Desktop/azan/src/sounds/afterAzan.mp3 vol 25 dB");
+		azanPath.put(3, "play /home/pi/Desktop/azan/src/sounds/azans/azan3.mp3 vol 25 dB; play /home/pi/Desktop/azan/src/sounds/afterAzan.mp3 vol 25 dB");
+		azanPath.put(4, "play /home/pi/Desktop/azan/src/sounds/azans/azan4.mp3 vol 25 dB;");
 
 		
 		int generateRandomIndex = (int) (Math.random() * (4 - 0)) + 0;

@@ -1,3 +1,0 @@
-#!/bin/bash
-javac  -cp ".:/home/pi/Desktop/azan/json-20140107.jar" run.java
-java -cp ".:/home/pi/Desktop/azan/json-20140107.jar" .run

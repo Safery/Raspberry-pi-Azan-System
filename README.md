@@ -1,1 +1,1 @@
-# Raspberry-pi-Azan-System
+# ATAS - AUTOMATED AZAN SYSTEM

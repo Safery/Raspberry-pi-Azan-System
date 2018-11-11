@@ -52,7 +52,9 @@ COUNTRY - Country
 
 Inside /src/com/safu/azan/cronManagement.java is where all the PATH are defined for all mp3. You can fix it there.
 
-#### I am not Bengali, I don't want to Bangla audio.
+#### I am not Bengali, I don't want  Bangla audio.
+
+The azan is in Arabic. There is no such thing as Bengali azan, but the pre azan sound can be changed.
 
 Inside /src/com/safu/azan/cronManagement.java is where all the PATH are defined, you can remove the preAzan code from the cronjob String.
 

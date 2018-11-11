@@ -1,4 +1,4 @@
-#ATAS - Automated Azan System
+# ATAS - Automated Azan System
 ## About
 ATAS is automated azan system that takes prayer time in respected area via an API and performs azan (muslim call to prayer) during respected time. It uses Internet (obviously to grab the data) but the files for the azan are locally saved.
 
@@ -6,13 +6,13 @@ The reason I created this is due to my OCD toward the azan clock that are made i
 
 To get rid of this problem, I wnated to automate the azan system, thus I quickly turned on Hasan Minhaj latest show on Netflix and made ATAS.
 
-###Features
+### Features
 
 - Automatically grab prayer time everyday
 - No need for manual adjustment. It keeps track of your time regardless of daylight saving or sunset time being change.
 - No need to check which prayer time it is. ATAS will mention what azan it will poof out before starting.
 
-###Instruction
+### Instruction
 1. Start your pi and external speaker
 2. Plug your external speaker into your pi
 3. Log into your pi and install the following plugin (This will be your audio player)

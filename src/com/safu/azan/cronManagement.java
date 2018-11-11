@@ -28,7 +28,7 @@ public class cronManagement {
 		File textFile = new File(userHomeFolder, "cronjob.txt");
 		BufferedWriter out = new BufferedWriter(new FileWriter(textFile));
 		try {
-			  out.write("02 06 * * * bash /home/pi/Desktop/azan/src/compile" + "\n" +
+			  out.write("17 17 * * * bash /home/pi/Desktop/azan/src/compile" + "\n" +
 			  	    dhuhr.substring(3,5) + " " + dhuhr.substring(0,2) + " * * * play /home/pi/Desktop/azan/src/sounds/preAzan-Bengali/preZuhr.mp3 vol 15 dB;" + getAzan() + "\n" +
 				    asr.substring(3,5) + " " + asr.substring(0,2) + " * * * play /home/pi/Desktop/azan/src/sounds/preAzan-Bengali/preAsr.mp3 vol 15 dB;" + getAzan() + "\n" +
 				    magrib.substring(3,5) + " " + magrib.substring(0,2) + " * * * play /home/pi/Desktop/azan/src/sounds/preAzan-Bengali/preMagrib.mp3 vol 15 dB;" + getAzan() + "\n" +

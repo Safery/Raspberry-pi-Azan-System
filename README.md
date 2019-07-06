@@ -4,7 +4,7 @@ ATAS is automated azan system that takes prayer time in respected area via an AP
 
 The reason I created this is due to my OCD toward the azan clock that are made in China. I am not against them but they get their data via algorithms and the timing are always off since the algorithms does not do your location but rather its a pre-defined 'timezone' which is a real problem living in Canada. We observe 'day light' saving time so many times of the year our prayer time changes heavily. Also our climate is considered very dynamic to our winter which requries many manual changes to the clock. 
 
-To get rid of this problem, I wnated to automate the azan system, thus I quickly turned on Hasan Minhaj latest show on Netflix and made ATAS.
+To get rid of this problem, I wanted to automate the azan system, thus I quickly turned on Hasan Minhaj latest show on Netflix and made ATAS.
 
 ### Features
 
